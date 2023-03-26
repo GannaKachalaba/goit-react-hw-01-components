@@ -18,6 +18,6 @@ FriendListItem.prototype = {
   isOnline: PropTypes.bool.isRequired,
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-}.isRequired;
+};
 
 export default FriendListItem;
